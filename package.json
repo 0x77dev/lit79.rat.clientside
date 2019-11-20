@@ -1,5 +1,5 @@
 {
-  "name": "noderat",
+  "name": "@lit79/rat.client",
   "version": "0.1.0",
   "description": "NodeJS Remote Administration Tool.",
   "main": "index.js",
@@ -9,8 +9,8 @@
   "private": false,
   "scripts": {
     "start": "electron app.js",
-  	"pack": "electron-builder --dir",
-  	"dist": "electron-builder"
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "dependencies": {
     "express": "^4.17.1",
