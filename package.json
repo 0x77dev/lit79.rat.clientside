@@ -1,0 +1,10 @@
+{
+  "name": "noderat",
+  "version": "0.0.0",
+  "description": "NodeJS Remote Administration Tool.",
+  "main": "index.js",
+  "repository": "git@github.com:0x77dev/noderat.git",
+  "author": "Misha Marinenko <0x77dev@protonmail.com>",
+  "license": "GPL-3.0",
+  "private": false
+}
