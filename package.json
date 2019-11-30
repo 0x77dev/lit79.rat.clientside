@@ -1,25 +1,22 @@
 {
-  "name": "@lit79/rat.client",
-  "version": "0.1.0",
-  "description": "NodeJS Remote Administration Tool.",
-  "main": "index.js",
-  "repository": "git@github.com:0x77dev/noderat.git",
+  "name": "@lit79/clasroomserver",
+  "version": "0.0.1",
+  "main": "main.js",
   "author": "Misha Marinenko <0x77dev@protonmail.com>",
   "license": "GPL-3.0",
   "private": false,
   "scripts": {
-    "start": "electron app.js",
+    "start": "electron main.js",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
   "dependencies": {
+    "@lit79/classroom.core": "https://github.com/lit79repo/classroom.core#master",
     "express": "^4.17.1",
-    "lowdb": "^1.0.0",
-    "menubar": "^7.0.0",
-    "vue": "^2.6.10"
+    "menubar": "^7.1.0"
   },
   "devDependencies": {
-    "electron-builder": "^21.2.0",
-    "electron": "^7.1.2"
+    "electron": "^7.1.2",
+    "electron-builder": "^21.2.0"
   }
 }
